@@ -1,71 +1,33 @@
 ###################
-What is CodeIgniter
+Desenvolvimento do AdminLTE
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+O AdminLTE 2 é um dos mais populares sistemas de dashboard e administração atualmente disponíveis. Sua funcionalidade, facilidade de personalização e design moderno tornam-no uma escolha ideal para inúmeros projetos. Este projeto foi desenvolvido e estará em constante evolução, com atualizações frequentes, para melhorias de desempenho e correções de erros. Afinal sempre há espaço para mais melhorias e atualizações emocionantes. Neste arquivo "leia-me", apresentarei algumas ideias futuras para o sistema AdminLTE 2.
 
 *******************
-Release Information
+Ideias Gerais
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Melhorias de performance: Melhorias contínuas na velocidade e na forma como o sistema funciona.
+Personalização e Novos Temas: Mais temas e opções de personalização serão adicionados ao AdminLTE 2.
+Melhorias em Gráficos e Widgets: novas opções e recursos gráficos serão adicionados para gráficos e widgets.
+Melhor suporte a plataformas móveis: Desenvolver recursos e opções compatíveis com dispositivos móveis.
 
 **************************
-Changelog and New Features
+Futuras alterações e Ideias
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Este projeto continua sendo desenvolvido ativamente. Todos os usuários são encorajados a fornecer feedback e sugestões sobre como melhorar o sistema. Aqui estão algumas ideias que podem ser adicionadas ao AdminLTE 2:
 
-*******************
-Server Requirements
-*******************
+Integração com APIs: integrar APIs de terceiros em widgets ou outras partes do sistema.
+Novos recursos de visualização: novos recursos para visualização de dados e informações como gráficos ou tabelas.
+Melhorias de segurança: continuar melhorando a segurança e o acesso ao sistema.
+Integração com outros sistemas: para tornar a integração com outros sistemas mais fácil e eficiente.
+Importante incluir:
 
-PHP version 5.6 or newer is recommended.
+Instruções claras para instalação e implementação do AdminLTE 2.
+Instruções e exemplos de personalização para ajudar os usuários a adaptar o sistema às suas necessidades.
+Descrição e uso de todos os recursos e funcionalidades disponíveis no sistema.
+Política de suporte e tempo de resposta em caso de problemas e bugs relatados pelos usuários.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
 
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.

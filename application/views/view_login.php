@@ -26,6 +26,9 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Entre para iniciar a sessão</p>
+  <?php
+    echo form_open('autentica');
+?>
 
     <form action="../../index2.html" method="post">
       <div class="form-group has-feedback">

@@ -11,7 +11,7 @@ class Home extends CI_Controller {
 		date_default_timezone_set('America/Sao_Paulo');
 	}
 	function index() {
-		redirect('login');
+		redirect('Login');
 
 	}
 }

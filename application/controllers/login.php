@@ -15,4 +15,9 @@ class Login extends CI_Controller {
         $this->load->view('view_login');
 
 	}
+	public function loginponto() {
+		$this->load->helper(array('form'));
+		$this->load->view('view_login');
+	}
 }
+

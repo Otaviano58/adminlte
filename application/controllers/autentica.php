@@ -13,8 +13,8 @@ class Autentica extends CI_Controller {
     function index() {
     
         $this->form_validation->set_message('required'.'Campo %s obrigatório');
-        $this->form_validation->set_rule('email'.'E-mail ou Usuário'.'trim|required');
-        $this->form_validation->set_rule('password'.'Senha'.'trim|required|callback_check_database');
+        $this->form_validation->set_rules('email'.'E-mail ou Usuário'.'trim|required');
+        $this->form_validation->set_rules('password'.'Senha'.'trim|required|callback_check_database');
         
         
         if($this->form_validation->run() == FALSE) {

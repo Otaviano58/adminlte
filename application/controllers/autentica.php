@@ -18,10 +18,10 @@ class Autentica extends CI_Controller {
         
         
         if($this->form_validation->run() == FALSE) {
-            $this->load->view('view_login');
+            redirect('login','refresh');
     }
         else {
-            redirect('home/dashboard'. 'refresh');
+            redirect('home/dashboard','refresh');
         }
     }
     function database($senha) {

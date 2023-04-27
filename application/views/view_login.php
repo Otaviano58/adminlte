@@ -33,11 +33,13 @@
 
     <form action="../../index2.html" method="post">
       <div class="form-group has-feedback">
-        <input type="email" id = "email" name="email" class="form-control" placeholder="Email">
+        <?php echo form_error('username'); ?>
+        <input type="text" id = "login" name="login" value="<?php echo set_value('login'); ?>" size="50"/>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" name="password" id="password" class="form-control" placeholder="Senha">
+        <?php echo form_error('password'); ?>
+        <input type="password" name="senha" id="senha" >
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
@@ -56,7 +58,9 @@
       </div>
     </form>
 
+    <?php 
     echo form_close();
+    ?>
 
     <a href="#">Esqueci minha senha</a><br>
     <a href="register.html" class="text-center">Registre-se aqui!</a>

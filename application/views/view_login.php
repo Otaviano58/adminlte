@@ -34,7 +34,7 @@
     <form action="../../index2.html" method="post">
       <div class="form-group has-feedback">
         <?php echo form_error('username'); ?>
-        <input type="text" id = "login" name="login" value="<?php echo set_value('login'); ?>" size="50"/>
+        <input type="text" id = "login" name="login" value="<?php echo set_value('login'); ?>" value="50"/>
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
